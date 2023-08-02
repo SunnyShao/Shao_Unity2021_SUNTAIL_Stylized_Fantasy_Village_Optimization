@@ -79,6 +79,7 @@ Material:
     m_Floats:
     - _AlphaCutoff: 0.3
     - _Anchorthefoliagebase: 1
+    - _Bias1: 0
     - _BumpScale: 1
     - _Color2Enable: 1
     - _Cutoff: 0.5
@@ -88,6 +89,9 @@ Material:
     - _DstBlend: 0
     - _EnableWind: 1
     - _Float1: 0.13
+    - _Float2: 0
+    - _Float3: 5
+    - _Gloss: 0.3
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -96,9 +100,13 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Power1: 0
+    - _Scale1: 0
     - _SecondColorFade: 0.85
     - _SecondColorOffset: -0.01
     - _SecondColorOverlayType: 1
+    - _Shininess: 0.1
+    - _Smoot: 0
     - _Smoothness: 0.3
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -117,3 +125,4 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MainColor: {r: 0, g: 0.5, b: 0.29166663, a: 0}
     - _SecondColor: {r: 0.34160584, g: 0.6, b: 0, a: 0}
+    - _SpecularColor: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
