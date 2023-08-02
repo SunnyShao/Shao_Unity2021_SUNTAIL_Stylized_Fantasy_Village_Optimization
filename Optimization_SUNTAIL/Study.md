@@ -10,3 +10,6 @@
     Quality设置
     1. 看编辑器平台设置和目标优化平台设置的差异
     2. 渲染管线在目标平台的设置主要看使用到管线的类型，以及使用了哪些RenderFeature，开启了哪些中间纹理和管线内置功能
+       例) 比如 SuntailUniversalRenderPipelineAsset_Renderer 中的 RenderingPath 设置成了延迟渲染(Deferred)，可能会给移动平台带来带宽和显存的压力
+
+三、运行时信息
