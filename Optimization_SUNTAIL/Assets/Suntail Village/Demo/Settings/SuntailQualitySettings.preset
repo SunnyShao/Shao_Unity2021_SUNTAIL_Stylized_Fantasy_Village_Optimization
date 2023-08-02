@@ -402,7 +402,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_QualitySettings.Array.data[2].vSyncCount
-    value: 1
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_QualitySettings.Array.data[2].lodBias
@@ -910,7 +910,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PerPlatformDefaultQuality.Array.size
-    value: 12
+    value: 13
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PerPlatformDefaultQuality.Array.data[0].first
@@ -962,31 +962,31 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PerPlatformDefaultQuality.Array.data[6].first
-    value: Standalone
+    value: Server
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PerPlatformDefaultQuality.Array.data[6].second
-    value: 5
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PerPlatformDefaultQuality.Array.data[7].first
-    value: WebGL
+    value: Standalone
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PerPlatformDefaultQuality.Array.data[7].second
-    value: 3
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PerPlatformDefaultQuality.Array.data[8].first
-    value: Windows Store Apps
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_PerPlatformDefaultQuality.Array.data[8].second
     value: 5
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: m_PerPlatformDefaultQuality.Array.data[8].first
+    value: WebGL
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PerPlatformDefaultQuality.Array.data[8].second
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: m_PerPlatformDefaultQuality.Array.data[9].first
-    value: XboxOne
+    value: Windows Store Apps
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PerPlatformDefaultQuality.Array.data[9].second
@@ -994,17 +994,26 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PerPlatformDefaultQuality.Array.data[10].first
-    value: iPhone
+    value: XboxOne
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PerPlatformDefaultQuality.Array.data[10].second
-    value: 2
+    value: 5
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PerPlatformDefaultQuality.Array.data[11].first
-    value: tvOS
+    value: iPhone
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_PerPlatformDefaultQuality.Array.data[11].second
     value: 2
     objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PerPlatformDefaultQuality.Array.data[12].first
+    value: tvOS
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_PerPlatformDefaultQuality.Array.data[12].second
+    value: 2
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
