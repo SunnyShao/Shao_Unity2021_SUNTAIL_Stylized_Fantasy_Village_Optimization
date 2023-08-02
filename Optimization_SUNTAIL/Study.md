@@ -13,3 +13,26 @@
        例) 比如 SuntailUniversalRenderPipelineAsset_Renderer 中的 RenderingPath 设置成了延迟渲染(Deferred)，可能会给移动平台带来带宽和显存的压力
 
 三、运行时信息
+    启动游戏查看Status信息：场景平均面数、面数峰值、渲染批次
+        例) 平均三角形面数(trils)：1.5M-2M  
+            面数峰值: 2.3M 
+            渲染批次(Batches): 1500 - 1800
+            SetPass calls：200多
+            生成的APK大小550M
+            小米11手机平均FPS 10FPS
+            小米11手机内存 1.5GB
+            小米11手机纹理资源 670M
+            小米11手机Mesh 423M
+            小米11手机音效 76M
+
+
+
+
+
+
+
+
+
+
+
+            
