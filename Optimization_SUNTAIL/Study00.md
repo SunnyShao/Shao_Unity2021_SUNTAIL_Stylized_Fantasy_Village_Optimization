@@ -15,6 +15,7 @@
     1) 看编辑器平台设置和目标优化平台设置的差异
     2) 渲染管线在目标平台的设置主要看使用到管线的类型，以及使用了哪些RenderFeature，开启了哪些中间纹理和管线内置功能
        >比如 SuntailUniversalRenderPipelineAsset_Renderer 中的 RenderingPath 设置成了延迟渲染(Deferred)，可能会给移动平台带来带宽和显存的压力
+       ![](https://upload-images.jianshu.io/upload_images/2356692-ae8564ea15d82733.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 三 、运行时信息
 - 电脑启动游戏查看Status信息：场景平均面数、面数峰值、渲染批次
