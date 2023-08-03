@@ -22,6 +22,8 @@
             面数峰值: 2.3M 
             渲染批次(Batches): 1500 - 1800
             SetPass calls：200多
+>![image](https://github.com/SunnyShao/Shao_Unity2021_SUNTAIL_Stylized_Fantasy_Village_Optimization/assets/21049639/9d19325b-3fd4-4f56-836f-0a2f9eb0b6e3)
+
 
 - 手机启动游戏查看信息：
 >生成的APK大小621M
