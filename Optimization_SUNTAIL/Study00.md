@@ -22,7 +22,7 @@
             面数峰值: 2.3M 
             渲染批次(Batches): 1500 - 1800
             SetPass calls：200多
->![image](https://github.com/SunnyShao/Shao_Unity2021_SUNTAIL_Stylized_Fantasy_Village_Optimization/assets/21049639/9d19325b-3fd4-4f56-836f-0a2f9eb0b6e3)
+>![](https://github.com/SunnyShao/Shao_Unity2021_SUNTAIL_Stylized_Fantasy_Village_Optimization/assets/21049639/9d19325b-3fd4-4f56-836f-0a2f9eb0b6e3)
 
 
 - 手机启动游戏查看信息：
@@ -32,4 +32,4 @@
             小米MIX4手机纹理资源 444M
             小米MIX4手机Mesh 449M
             小米MIX4手机音效 76M
->![企业微信截图_16909728046220](https://github.com/SunnyShao/Shao_Unity2021_SUNTAIL_Stylized_Fantasy_Village_Optimization/assets/21049639/df22624c-3f96-4f9c-8d7e-2bc0c58744dc)
+>![](https://github.com/SunnyShao/Shao_Unity2021_SUNTAIL_Stylized_Fantasy_Village_Optimization/assets/21049639/df22624c-3f96-4f9c-8d7e-2bc0c58744dc)
