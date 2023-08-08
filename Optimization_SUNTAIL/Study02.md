@@ -2,12 +2,13 @@
 
 ## Unity模型导出导入流程
 ##### 下图主要是美术需要在建模软件进行导出，并在Unity进行导入相关的流程，导出导入很重要，关乎在Unity的使用是否正常
-![](https://upload-images.jianshu.io/upload_images/2356692-da0ca23818aa9b03.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/2356692-0ea173e2327634af.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 
 ---
 
 ## DCC工具导出设置
-
+##### Unity 支持多种标准和专有模型文件格式（DCC）。Unity 内部使用 .fbx 文件格式作为其导入链
 1. 导出FBX![](https://upload-images.jianshu.io/upload_images/2356692-546e2db6a017d5c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ---
@@ -29,6 +30,19 @@
 - 不建议模型使用的纹理随模型导出，这会降低Unity导入效率，同
 - 尽可能少的骨骼数量
 - FK与IK节点分离，导出时删除IK骨骼节点
+
+---
+
+4. 模型优化
+- 尽可能的将网格合并到一起
+- 尽可能使用共享材质
+- 不要使用网格碰撞体
+- 不必要不要开启网格读写
+- 使用合理的LOD级别
+- Skin Weights受骨骼影响个过多
+- 合理压缩网格
+- 不需要rigs和BlendShapes尽量关闭
+-  如果可能，禁用法线或切线
 
 ---
 
