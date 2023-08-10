@@ -1,13 +1,12 @@
-
 {
-    "mode": "files",
+    "mode": "directory",
     "precision": 5,
     "mode_files": {
-        "projectpath": "F:/UnityProjectPath/",
+        "projectpath": "D:/Workspace/UnityProjects/Zoids/Project/Assets/Artworks/Character/Npc/C_BaSi/Timelin/",
         "filespath": "files.txt"
     },
     "mode_directory": {
-        "directorypath": "F:/UnityProjectPath/samefloder",
+        "directorypath": "D:/Workspace/UnityProjects/Zoids/Project/Assets/Artworks/Character/Npc/C_BaSi/Timeline/",
         "include": [
             "anim",
             "playable"

@@ -51,8 +51,9 @@ FloatOptimize(浮点型优化)用于优化Unity项目中的资源文件.
 
 ### 创建配置文件
 
-在工具根目录下，打开cmd命令工具，使用命令 ```FloatOptimize.exe generate-config``` 创建配置文件
+打开cmd命令工具，进入工具根目录下，使用命令 ```python FloatOptimize.py generate-config``` 创建配置文件
 创建成功后，在根目录下生成 ```Config.json``` 文件
+或者可以直接修改已经生成 ```Config.json``` 文件
 
 ### 修改配置文件
 
@@ -107,6 +108,5 @@ Assets\Animation\anim6.anim
 
 ### 运行
 
-
-使用的命令 ```FloatOptimize.exe run``` 运行
+双击Run.bat 或者 使用命令 ```python FloatOptimize.py run``` 运行即可
 
