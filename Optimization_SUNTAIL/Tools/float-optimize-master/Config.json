@@ -1,0 +1,16 @@
+
+{
+    "mode": "files",
+    "precision": 5,
+    "mode_files": {
+        "projectpath": "F:/UnityProjectPath/",
+        "filespath": "files.txt"
+    },
+    "mode_directory": {
+        "directorypath": "F:/UnityProjectPath/samefloder",
+        "include": [
+            "anim",
+            "playable"
+        ]
+    }
+}
