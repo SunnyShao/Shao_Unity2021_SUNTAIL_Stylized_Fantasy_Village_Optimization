@@ -19,10 +19,10 @@ namespace Game.Editor
                 string fileName = Path.GetFileNameWithoutExtension(assetPath);
                 if (fileName.EndsWith("_1024"))
                     importer.maxTextureSize = 1024;
-                else if (fileName.EndsWith("_512"))
-                    importer.maxTextureSize = 512;
+                else if (fileName.EndsWith("_2048"))
+                    importer.maxTextureSize = 2048;
                 else
-                    importer.maxTextureSize = 256;
+                    importer.maxTextureSize = 512;
 
                 var androidSetting = importer.GetPlatformTextureSettings(BuildTargetGroup.Android.ToString());
                 androidSetting.maxTextureSize = importer.maxTextureSize;
