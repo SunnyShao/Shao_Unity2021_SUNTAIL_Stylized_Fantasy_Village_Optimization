@@ -14,32 +14,15 @@ namespace Game.Editor
             importer.isReadable = false;
 
             // Assets/Artworks下是美术库的全部贴图，分门别类的设置不同最大尺寸
-            if (assetPath.StartsWith("Assets/Artworks"))
+            if (assetPath.StartsWith("Assets/Suntail Village/Textures"))
             {
-                // 特效贴图
-                if (assetPath.StartsWith("Assets/Artworks/VFX"))
-                {
-                    string fileName = Path.GetFileNameWithoutExtension(assetPath);
-                    if (fileName.EndsWith("_1024"))
-                        importer.maxTextureSize = 1024;
-                    else if (fileName.EndsWith("_512"))
-                        importer.maxTextureSize = 512;
-                    else
-                        importer.maxTextureSize = 256;
-                }
-                // 场景贴图
-                else if (assetPath.StartsWith("Assets/Artworks/Scenes"))
-                {
+                string fileName = Path.GetFileNameWithoutExtension(assetPath);
+                if (fileName.EndsWith("_1024"))
                     importer.maxTextureSize = 1024;
-                }
+                else if (fileName.EndsWith("_512"))
+                    importer.maxTextureSize = 512;
                 else
-                {
-                    string fileName = Path.GetFileNameWithoutExtension(assetPath);
-                    if (fileName.EndsWith("_1024"))
-                        importer.maxTextureSize = 1024;
-                    else
-                        importer.maxTextureSize = 512;
-                }
+                    importer.maxTextureSize = 256;
 
                 var androidSetting = importer.GetPlatformTextureSettings(BuildTargetGroup.Android.ToString());
                 androidSetting.maxTextureSize = importer.maxTextureSize;
