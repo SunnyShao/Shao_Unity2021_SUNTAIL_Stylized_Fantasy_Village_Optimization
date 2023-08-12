@@ -107,3 +107,7 @@ namespace Game.Editor
 
 ---
 
+## 优化对比
+- Memory视图中，Texture2D内存优化了将近300M，如果大家觉得压缩太狠，可以调整合适自己的分辨率![](https://upload-images.jianshu.io/upload_images/2356692-c1bf820c2e3c2771.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- Profiler中整体内存峰值200M，纹理也是显示将近300M的优化![](https://upload-images.jianshu.io/upload_images/2356692-02198f2622b2e989.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
